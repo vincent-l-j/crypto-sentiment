@@ -2,6 +2,13 @@
 
 ![Stock Sentiment](image/sentimental.jpeg)
 
+## Installation
+```bash
+# create a new virtual environment and activate it
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+```
+
 ## Background
 
 There's been a lot of hype in the news lately about cryptocurrency, so you want to take stock, so to speak, of the latest news headlines regarding Bitcoin and Ethereum to get a better feel for the current public sentiment around each coin.
